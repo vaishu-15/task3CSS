@@ -30,7 +30,7 @@ body
 }
 main{
     
-    padding: 0px 10px;
+   
 }
 .sidenav{
     padding-top: 0 ;
@@ -38,7 +38,7 @@ main{
 }
 
 .header-text{
-    margin: 170px;
+   margin-left: 170px;
    max-width: 1000px;
    position: relative;
     font-size: 25px;
@@ -46,4 +46,5 @@ main{
 .header-text h1{
     font-size: 60px;
     margin-top: 0px;
+    padding: 40px;
 }
