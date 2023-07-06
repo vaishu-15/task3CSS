@@ -5,7 +5,7 @@ body{
 }
 .container{
     width:80%;
-    margin:50px auto;
+    margin:50px 60px;
 }
 .contact_box{
     background: white;
@@ -16,9 +16,14 @@ body{
     padding:40px 60px;
 }
 .contact-right{
-    flex-basis:40%;
+
+    flex-basis:60%;
     padding:40px ;
     background: rgb(3, 41, 43);
+    
+}
+.contact-right:hover{
+    background-color: aqua;
 }
 h1{
     margin-bottom: 10px;
@@ -27,8 +32,8 @@ h1{
     margin-bottom: 40px;
 }
 .input-row{
-    display: flex;
-    justify-content: space-between;
+    
+    justify-content: space-between ;
     margin-bottom: 20px;
 }
 .input-row.input-group{
@@ -43,4 +48,16 @@ input{
 textarea{
     width:100%;
     border:1px solid black;
+}
+button{
+    background:#290404c9;
+    width:100px;
+    border-radius: 30px;
+    height:35px;
+    margin-top: 20px;
+   margin-left: 240px;
+   margin-bottom: 20px;
+}
+tr td:first-child{
+    padding-right: 20px;
 }
