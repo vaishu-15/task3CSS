@@ -35,7 +35,7 @@
             body{
                 background-color: rgb(7, 84, 87); 
             }
-            .tab-titles{
+            /* <!--.tab-titles{
                 display: flex;
             }
             .tab-links{
@@ -58,9 +58,22 @@
             .grid-container{
                 display:grid;
                 row-gap: 50px;
-            }
-            
+             }--> */
+             .grid-container {
+                    display: grid;
+                    grid-template-columns: 100px 100px 100px; /*Make the grid smaller than the container*/
+                    gap: 80px;
+                    background-color: cadetblue;
+                    padding: 15px;
+}
 
+             .grid-container > div {
+                    background-color: rgba(255, 255, 255, 0.8);
+                    text-align: center;
+                    padding: px 50px;
+                    font-size: 19px;
+                    color: black;
+}
         </style>
     </head>
     <body>
@@ -70,24 +83,19 @@
             <p>Highly motivated individual seeking an opportunity to apply my technical skills and
                 gain valuable industry experience. I aim to contribute to the development and implementation
                 of innovative solutions while expanding my knowledge of cutting-edge technologies.</p>
-                <div class="tab-titles">
-                    <p class="tab-links">Skills</p>
-                    <p class="tab-links">Education</p>
-                    <p class="tab-links">Projects</p>
-                </div>
                 <div class="grid-container">
-                    <div class="grid items">
+                   <div><b>Skills</b></div>
+                    <div><b>Education</b></div>
+                    <div><b>Projects</b></div>
+                </div>
+                    <div class="">
                     <ul>
                         <li>Programming Languages(Python,Java,C++,C)</li>
                          <li>Web Development(HTML,CSS,JavaScript)</li>
                          <li>Database Management(MySQL)</li>
                          <li>Tools and Techniques(git and github)</li>
                     </ul>
-                </div>
-            </div>
-            
-                
-        
+                     </div>
         </div>
         <div class="img">
             <img src="imgport.jpg" alt="blank">
