@@ -1,36 +1,48 @@
 <!DOCTYPE html>
 <html>
-   <head>
-<style>
-    .flex-container{
-        display: flex;
-        flex-wrap: nowrap;
-        background-color: cadetblue;
-    }
-    .flex-container > div {
-        background-color: darkgray;
-        width: 600px;
-        height:500px;
-        margin:20px;
-        text-align: center;
-        line-height: 75px;
-        font-size: 30px;
-    }
-    body{
-        background-color: cadetblue;
-    }
-</style>
-   </head>
-   <body>
-    <h1>Resume</h1>
-    <div class="flex-container">
-        <div>
-            <img src="Professional CV Resume.jpg" height=80%" alt="resume pic">
-        </div>
-        <div>
-            <input type="button"  name="download" value="Download">
-            
-        </div>
-    </div>
-   </body> 
+<head>
+  <title>Portfolio</title>
+  <style>
+    .grid-container {
+  display: grid;
+  grid-template-columns: 20px 50px;
+  grid-gap: 10px;
+}
+
+.grid-item {
+ width:20%;
+}
+
+
+@media screen and (max-width: 200px) {
+  .grid-container {
+    grid-template-columns:100px; 
+  }
+}
+  </style>
+</head>
+<body>
+  <header>
+   
+  </header>
+
+  <main>
+    <section class="grid-container">
+        <div class="grid-item">
+            <img src="project-image.png" alt="Project Image">
+            <h3>Project Title</h3>
+            <p>Project description</p>
+          </div>
+          <div class="grid-item">
+            <img src="project-image2.jpg" alt="Project Image">
+            <h3>Project Title</h3>
+            <p>Project description</p>
+          </div>
+    </section>
+  </main>
+
+  <footer>
+    
+  </footer>
+</body>
 </html>
